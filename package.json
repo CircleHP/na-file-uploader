@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-sandbox",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon --exec \"ts-node src/index.ts\" --watch src -e js,ts,json"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "dependencies": {
+    "@azure/storage-blob": "12.16.0",
+    "dotenv": "^16.3.1",
+    "formidable": "^3.5.1",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.3",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^20.5.9",
+    "jest": "29.7.0",
+    "nodemon": "^3.0.1",
+    "ts-jest": "^29.1.1",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  }
+}
